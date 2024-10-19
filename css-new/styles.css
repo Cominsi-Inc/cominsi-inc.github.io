@@ -245,6 +245,7 @@
 .mcb_item_custom218 .desc-wrapper .desc{
 	font-size: 18px;
 	color:#8792A1;
+	line-height: 1.2;
 }
 
 
@@ -262,6 +263,7 @@
 	font-size: 14px;
 	font-weight: bold;
 	color: #54d3ca;
+	line-height: 1.2;
 }
 .mcb_item_custom219 .mcb-column_inner_custom219 {
 	margin-bottom: 10px;
@@ -288,6 +290,7 @@
 .mcb_item_custom220 .desc-wrapper .desc{
 	font-size: 18px;
 	color:#8792A1;
+	line-height: 1.2;
 }
 
 
@@ -335,6 +338,7 @@
 .mcb_item_custom222 .desc-wrapper .desc{
 	font-size: 18px;
 	color:#8792A1;
+	line-height: 1.2;
 }
 
 
@@ -352,6 +356,7 @@
 	font-size: 14px;
 	font-weight: bold;
 	color: #54d3ca;
+	line-height: 1.2;
 }
 .mcb_item_custom223 .mcb-column_inner_custom223 {
 	margin-bottom: 10px;
@@ -378,6 +383,7 @@
 .mcb_item_custom224 .desc-wrapper .desc{
 	font-size: 18px;
 	color:#8792A1;
+	line-height: 1.2;
 }
 
 
@@ -487,7 +493,7 @@
 	border-radius: 32px 32px 32px 32px;
 	padding-top: 40px;
 	padding-left: 5%;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	padding-right: 5%;
 	align-items: center;
 	background-repeat: no-repeat;
@@ -3150,6 +3156,157 @@ body {
 }
 
 
+@media screen and (max-width: 768px) {
+  .is-hidden-mobile {
+    display: none !important;
+  }
+
+
+.white-box {
+	border: 1px;
+	border-radius: 15px;
+	Background-color: rgba(255, 255, 255, .4);
+	color: #000;
+	font-size:15px;
+	font-weight: 600;
+	line-height: 1.4;
+	padding: 18px;
+}
+
+
+.black-box {
+	border: 1px;
+	border-radius: 15px;
+	Background-color: rgba(0, 0, 0, .75);
+	color: #fff;
+	font-size:15px;
+	font-weight: 600;
+	padding: 20px;
+}
+
+
+.mcb_item_custom216 {
+	text-align: center;
+	margin-top: -150px;
+}
+
+
+.mcb_item_custom398 .counter .sub-title {
+	color: #000;
+	font-size: 25px;
+	line-height: 29px;
+	font-weight: 600;
+	padding: 0px;
+}
+
+
+.mcb-section .mcb-wrap_custom108 .mcb-wrap_inner_custom108{
+	background-color: #FFFFFF;
+	border-radius: 32px 32px 32px 32px;
+	padding-top: 40px;
+
+	padding-bottom: 20px;
+
+	align-items: center;
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-size: contain;
+	align-content: space-evenly;
+}
+
+
+
+  }
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .is-hidden-tablet {
+    display: none !important;
+  }
+
+
+.white-box {
+	border: 1px;
+	border-radius: 15px;
+	Background-color: rgba(255, 255, 255, .4);
+	color: #000;
+	font-size:15px;
+	font-weight: 600;
+	line-height: 1.4;
+	padding: 18px;
+}
+
+
+.black-box {
+	border: 1px;
+	border-radius: 15px;
+	Background-color: rgba(0, 0, 0, .75);
+	color: #fff;
+	font-size:15px;
+	font-weight: 600;
+	padding: 20px;
+}
+
+
+.mcb_item_custom216 {
+	text-align: center;
+	margin-top: -150px;
+}
+
+
+
+.mcb_item_custom398 .counter .sub-title {
+	color: #000;
+	font-size: 25px;
+	line-height: 29px;
+	font-weight: 600;
+	padding: 0px;
+}
+
+
+.mcb-section .mcb-wrap_custom108 .mcb-wrap_inner_custom108{
+	background-color: #FFFFFF;
+	border-radius: 32px 32px 32px 32px;
+	padding-top: 40px;
+	margin-left: 100px;
+	padding-bottom: 10px;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-size: contain;
+
+
+}
+
+
+
+
+  }
+
+
+
+
+@media screen and (min-width: 1280px) {
+  .is-hidden-desktop {
+    display: none !important;
+  }
+
+
+.mcb_item_custom398 .counter .sub-title {
+	color: #000;
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 600;
+	padding: 0px;
+}
+
+
+}
+
+
+
+
 .light-text {font-weight: 400;}
 
 .light-grey {color:#D1D3D4;}
@@ -4112,7 +4269,7 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 		padding: 0 40px 0 20px
 	}
 	.menu-highlight #Top_bar .menu>li {
-		margin: 0 2px
+		margin: 0
 	}
 	.menu-highlight:not(.header-creative) #Top_bar .menu>li>a {
 		padding: 0;
@@ -4652,8 +4809,10 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 		width: 100%;
 		left: 0;
 		top: -60px;
-		height: 60px;
+		height: 65px;
 		z-index: 701;
+		margin-top: -2px;
+		padding-top: 3px;
 		background: #fff;
 		opacity: .97;
 		-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
@@ -4695,7 +4854,7 @@ input[type="date"], input[type="email"], input[type="number"], input[type="passw
 		width: auto
 	}
 	#Top_bar.is-sticky .menu_wrapper {
-		clear: none
+		clear: none;
 	}
 	#Top_bar.is-sticky .menu_wrapper .menu>li>a {
 		padding: 15px 0
