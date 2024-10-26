@@ -1,3 +1,6 @@
+
+
+
 .mcb_section_custom20 {
 	padding-top: 20px;
 	padding-bottom: 100px;
@@ -3162,6 +3165,15 @@ body {
   }
 
 
+.post-article {
+	width: 100%;
+	background-color: #292728; 
+	border: 1px;
+	border-radius: 15px; 
+	padding: 10px;
+}
+
+
 .white-box {
 	border: 1px;
 	border-radius: 15px;
@@ -3224,6 +3236,15 @@ body {
   .is-hidden-tablet {
     display: none !important;
   }
+
+
+.post-article {
+	width: 100%;
+	background-color: #292728; 
+	border: 1px;
+	border-radius: 15px; 
+	padding: 20px;
+}
 
 
 .white-box {
@@ -3305,6 +3326,13 @@ body {
 }
 
 
+.post-article {
+	width: 100%;
+	background-color: #292728; 
+	border: 1px;
+	border-radius: 15px; 
+	padding: 30px;
+}
 
 
 .light-text {font-weight: 400;}
