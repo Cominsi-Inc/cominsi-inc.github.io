@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20.52 20.5">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: url(#New_Gradient_Swatch_5-2);
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        stroke: url(#New_Gradient_Swatch_5);
+        stroke-linejoin: round;
+      }
+    </style>
+    <linearGradient id="New_Gradient_Swatch_5" data-name="New Gradient Swatch 5" x1="10.26" y1="20.5" x2="10.26" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#47b3c3"/>
+      <stop offset="1" stop-color="#8ccfbd"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_5-2" data-name="New Gradient Swatch 5" x1="10.26" y1="16" x2="10.26" y2="4.5" xlink:href="#New_Gradient_Swatch_5"/>
+  </defs>
+  <path class="cls-2" d="M7.39.75c-2.67.06-4.22.31-5.29,1.37-.93.93-1.24,2.23-1.35,4.33M13.13.75c2.67.06,4.22.31,5.29,1.37.93.93,1.24,2.23,1.35,4.33M13.13,19.75c2.67-.06,4.22-.31,5.29-1.37.93-.93,1.24-2.23,1.35-4.33M7.39,19.75c-2.67-.06-4.22-.31-5.29-1.37-.93-.93-1.24-2.23-1.35-4.33"/>
+  <path class="cls-1" d="M5.76,15.25c2.33-2.44,6.64-2.56,9,0M12.76,7.75c0,1.38-1.12,2.5-2.5,2.5s-2.5-1.12-2.5-2.5,1.12-2.5,2.5-2.5,2.5,1.12,2.5,2.5Z"/>
+</svg>

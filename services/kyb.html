@@ -45,6 +45,96 @@
 	<script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/add00f74886fc81588359713a77c9643.js"></script>
 
 
+<style>
+
+	
+
+@media (max-width: 767px) {
+  /* 1) Force the wrapper visible and clear out old bg settings */
+  #rev_slider_1_1_wrapper {
+    visibility: visible !important;       /* undo the inline “hidden” */
+    background-image: url("../img/kyb/kyb-banner-m.jpg") !important;
+    background-size: cover !important;
+    background-position: top center !important;
+    background-color: #7eebcb !important; /* mint fallback */
+    height: 700px !important;
+    max-height:700px !important;
+    overflow: hidden !important;
+    position: relative !important;
+  }
+
+  /* 2) Make sure the slider container itself is transparent */
+  #rev_slider_1_1,
+  .mfn-main-slider {
+    background-color: transparent !important;
+    height: 700px !important;
+    max-height: 700px !important;
+  }
+
+  /* 3) Hide the built-in rs-layer image so it won’t override us */
+  #slider-1-slide-1-layer-8 {
+    display: none !important;
+  }
+
+  /* 4) Keep your text/buttons on top */
+
+  #slider-1-slide-1-layer-16,
+  #slider-1-slide-1-layer-17 {
+    z-index: 12 !important;
+    left: 10px !important;
+  	right: 10px !important;
+  }
+
+  #slider-1-slide-1-layer-3,
+  #slider-1-slide-1-layer-2{
+  z-index: 12 !important;
+  left: 10px !important;
+  right: 10px !important;
+  width: 330px !important;
+  max-width: none !important;
+}
+
+  /* 5) Slide the next section down by 800px */
+  #intro {
+    margin-top: 20px !important;
+  }
+
+
+
+
+
+
+   /* 1) Ensure Top_bar is the positioning context */
+  #Top_bar {
+    position: relative !important;
+  }
+
+  /* 2) Pin the hamburger dead-flush to the edge */
+  .responsive-menu-toggle {
+    position: absolute !important;
+    right: 0 !important;            /* flush to the screen edge */
+    top: 50% !important;            /* vertically centered */
+    transform: translateY(-50%) !important;
+    padding: 18px !important;        /* tighten its hit area if needed */
+    z-index: 1001 !important;
+  }
+
+  /* 3) Move the Contact button in toward it */
+  .action_button.top-bar-right-button {
+    position: absolute !important;
+    right: 40px !important;         /* hamburger width (~30px) + 10px gap */
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    z-index: 1000 !important;
+  }
+
+  /* 4) Strip any leftover container padding */
+  #Top_bar .container {
+    padding: 0 !important;
+  }
+
+</style>
+
 	</head>
 
 
@@ -76,17 +166,11 @@
 								<div class="menu_wrapper">
 									<nav id="menu">
 										<ul id="menu-main-menu" class="menu menu-main">
-											<li> <a href="../index.html"><span>Home</span></a> </li>
 											<li> <a href="kyc.html"><span>KYC</span></a> </li>
+											<li> <a href="enrich-kyc.html"><span>Enriched KYC</span></a> </li>
 											<li class="current-menu-item page_item current_page_item"> <a href="#"><span>KYB</span></a> </li>
-											<li> <a href="#"><span>Company</span></a> 
-												 <ul class="sub-menu">
-                                                    <li><a href="../company/about.html"><span>About</span></a></li>
-                                                    <li><a href="../company/contact.html"><span>Contact Us</span></a></li>
-                                                 </ul>
-                                            </li>
-
-
+											<li> <a href="../company/about.html"><span>About Us</span></a> </li>
+											
 										</ul>
 									</nav>
 
@@ -102,94 +186,147 @@
 				</div>
 
 
+				<div class="mfn-main-slider" style="background-color:#d34821;">
+  <!-- START Home Carwash3 REVOLUTION SLIDER 6.5.21 -->
+  <p class="rs-p-wp-fix"></p>
+  <rs-module-wrap
+    id="rev_slider_1_1_wrapper"
+    data-source="gallery"
+    style="visibility:hidden;background-color: #d34821; padding:0;margin:0px auto;margin-top:0;margin-bottom:0;"
+  >
+    <rs-module id="rev_slider_1_1" data-version="6.5.21">
+      <rs-slides>
+        <rs-slide
+          style="position: absolute;"
+          data-key="rs-1"
+          data-title="Slide"
+          data-in="o:0;"
+          data-out="a:false;"
+        >
+          <img
+            src="../img/dummy.png"
+            alt="Slide"
+            title="Home"
+            class="rev-slidebg tp-rs-img rs-lazyload"
+            data-lazyload="../img/transparent.png"
+          >
+
+          <!-- HEADER -->
+          <rs-layer
+            id="slider-1-slide-1-layer-3"
+            data-type="text"
+            data-rsp_ch="on"
+            data-xy="xo:80px,80px,50px,50px;yo:200px,200px,80px,80px;"
+            data-text="w:normal;s:80,80,80,80;l:85,85,90,90;fw:900;"
+            data-dim="w:700px,700px,500px,500px;"
+            data-frame_0="x:-50,-50,-24,-24;"
+            data-frame_1="sp:1000;"
+            data-frame_999="o:0;st:w;"
+            style="z-index:12;font-family:'Montserrat';"
+          >
+            Orange You Glad We Know.
+          </rs-layer>
+
+          <!-- SUB-HEADER -->
+          <rs-layer
+            id="slider-1-slide-1-layer-2"
+            data-type="text"
+            data-color="#fff"
+            data-rsp_ch="on"
+            data-xy="xo:80px,80px,50px,50px;yo:390px,390px,280px,280px;"
+            data-text="w:normal;s:35,35,35,35;l:40,40,50,50;fw:500;"
+            data-dim="w:600px,600px,400px,600px;"
+            data-frame_0="x:-50,-50,-24,-24;"
+            data-frame_1="sp:1000;"
+            data-frame_999="o:0;st:w;"
+            style="z-index:13;font-family:'Montserrat';"
+          >
+          Build trust in B2B relationships with instant KYB. Save time and costs with full automation, significantly reducing onboarding delays.
+          </rs-layer>
+
+          <!-- BUTTONS -->
+          <a
+            id="slider-1-slide-1-layer-16"
+            class="rs-layer rev-btn"
+            href="#intro"
+            target="_self"
+            data-type="button"
+            data-color="#d44a1f"
+            data-rsp_ch="on"
+            data-xy="xo:80px,80px,50px,50px;yo:650px,650px,535px, 535px;"
+            data-text="w:normal;s:18,18,25,25;l:15,15,25,25;fw:700;"
+            data-dim="minh:0px,0px,none,0px;"
+            data-padding="t:20,20,18,18;r:32,32,25,25;b:20,20,18,18;l:32,32,25,25;"
+            data-border="bor:6px,6px,6px,6px;"
+            data-frame_0="x:-50,-50,-24,-24;"
+            data-frame_1="sp:1000;"
+            data-frame_999="o:0;st:w;"
+            data-frame_hover="c:#54d3ca;bgc:rgba(0,0,0,0);boc:#54d3ca;bor:6px,6px,6px,6px;bos:solid;bow:1px,1px,1px,1px;"
+            style="z-index:22;background-color:#fff; font-family:'Montserrat';"
+          >
+            Learn More
+          </a>
+
+          <a
+            id="slider-1-slide-1-layer-17"
+            class="rs-layer rev-btn"
+            href="../company/contact.html"
+            target="_self"
+            data-type="button"
+            data-color="#d44a1f"
+            data-rsp_ch="on"
+            data-xy="xo:290px,290px,280px,280px;yo:650px,650px,535px,535px;"
+            data-text="w:normal;s:18,18,25,25;l:15,15,25,25;fw:700;"
+            data-dim="minh:0px,0px,none,0px;"
+            data-padding="t:20,20,18,18;r:32,32,25,25;b:20,20,18,18;l:32,32,25,25;"
+            data-border="bor:6px,6px,6px,6px;"
+            data-frame_0="x:-50,-50,-24,-24;"
+            data-frame_1="sp:1000;"
+            data-frame_999="o:0;st:w;"
+            data-frame_hover="c:#54d3ca;bgc:rgba(0,0,0,0);boc:#54d3ca;bor:6px,6px,6px,6px;bos:solid;bow:1px,1px,1px,1px;"
+            style="z-index:22;background-color:#fff; font-family:'Montserrat';"
+          >
+            Get Started
+          </a>
+
+          <!-- IMAGE LAYER with responsive <picture> -->
+          <rs-layer
+            id="slider-1-slide-1-layer-8"
+            data-type="image"
+            data-rsp_ch="on"
+            data-xy="x:r,r,c,c;xo:0,0,80px,80px;y:t,t,b,b;yo:0px,0px,0px,0px;"
+            data-dim="w:1920px,1920px,1500px,1500px;h:1280px,1280px,1000px,1000px;"
+            data-basealign="slide"
+            data-frame_0="x:right;"
+            data-frame_1="sp:1000;"
+            data-frame_999="o:0;st:w;"
+            style="z-index:2;"
+          >
+            <picture>
+              <!-- Mobile version -->
+              <source
+                media="(max-width: 767px)"
+
+                srcset="../img/kyb/kyb-banner-m.jpg"
+              />
+              <!-- Desktop / fallback -->
+              <img
+                src="../img/enrich-kyc/enriched-kyc-banner.jpg"
+                alt="Enriched KYC Banner"
+                class="tp-rs-img rs-lazyload"
+                width="1920" 
+                data-lazyload="../img/kyb/kyb-orange-glad-business.jpg"
+              />
+            </picture>
+          </rs-layer>
+        </rs-slide>
+      </rs-slides>
+    </rs-module>
+  </rs-module-wrap>
+  <!-- END REVOLUTION SLIDER -->
+</div>
 
 
-
-				<div class="mfn-main-slider" style="background-color:#d34821;" >
-					<!-- START Home Carwash3 REVOLUTION SLIDER 6.5.21 -->
-					<p class="rs-p-wp-fix"></p>
-					<rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery" style="visibility:hidden;background-color: #d34821; padding:0;margin:0px auto;margin-top:0;margin-bottom:0; " >
-						<rs-module id="rev_slider_1_1" data-version="6.5.21">
-							<rs-slides>
-								<rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide" data-in="o:0;" data-out="a:false;"> <img src="../img/dummy.png" alt="Slide" title="Home" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="../img/transparent.png">
-									<!--
-										-->
-									<rs-group id="slider-1-slide-1-layer-4" data-type="group" data-rsp_ch="on" data-xy="xo:80px,80px,38px,38px;yo:160px,160px,137px,137px;" data-text="w:normal;s:20,20,9,9;l:0,0,12,12;" data-dim="w:300px;h:28px,28px,30px,30px;" data-frame_0="x:-50,-50,-24,-24;" data-frame_1="sp:1000;" data-frame_999="o:0;st:w;sA:9000;" style="z-index:16;">
-										<!--
-											
-										<rs-layer id="slider-1-slide-1-layer-0" data-type="shape" data-rsp_ch="on" data-xy="y:m;" data-text="w:normal;s:20,20,9,9;l:0,0,12,12;" data-dim="w:32,32,30px,30px;h:2,2,2px,2px;" data-frame_999="o:0;st:w;" style="z-index:14;background-color:#7dfec5;"></rs-layer>-->
-										
-										<!--<rs-layer id="slider-1-slide-1-layer-1" data-type="text" data-color="#7dfec5" data-rsp_ch="on" data-xy="xo:50px,50px,40px,40px;y:m;" data-text="w:normal;s:14,14,18,18;l:14,14,18,18;fw:700;" data-frame_999="o:0;st:w;" style="z-index:15;font-family:'Montserrat';"> BECARWASH </rs-layer>
-										
-											-->
-									</rs-group>
-									<!-- -->
-
-
-
-									<!-- HEADER	-->
-									<rs-layer id="slider-1-slide-1-layer-3" 
-									    data-type="text" 
-									    data-rsp_ch="on" 
-									    data-xy="xo:80px,80px,50px,50px;yo:140px,140px,380px,300px;" 
-									    data-text="w:normal;s:110,110,80,80;l:115,115,85,85;fw:900;" 
-									    data-dim="w:700px,700px,500px,600px;" 
-									    data-frame_0="x:-50,-50,-24,-24;" 
-									    data-frame_1="sp:1000;" 
-									    data-frame_999="o:0;st:w;" 
-									    style="z-index:12;font-family:'Montserrat';">
-									    Orange <br>You Glad We Know
-									</rs-layer>
-									
-
-									<!-- SUB-HEADER	-->
-									<rs-layer id="slider-1-slide-1-layer-2" 
-										data-type="text" 
-										data-color="#fff" 
-										data-rsp_ch="on" 
-										data-xy="xo:80px,80px,50px,50px;yo:510px,510px,650px,500px;" 
-										data-text="w:normal;s:45,45,35,35;l:50,50,45,45;fw:700;" 
-										data-dim="w:700px,700px,400px,600px;" 
-										data-frame_0="x:-50,-50,-24,-24;" 
-										data-frame_1="sp:1000;" 
-										data-frame_999="o:0;st:w;" 
-										style="z-index:13;font-family:'Montserrat';"> Empowering KYB across 176 jurisdictions, with sole trader coverage in 94 regions.
-									</rs-layer>
-									
-									
-
-
-									<a id="slider-1-slide-1-layer-16" 
-										class="rs-layer rev-btn" href="../company/contact.html" target="_self" 
-										data-type="button" 
-										data-color="#ae4539" 
-										data-rsp_ch="on" 
-										data-xy="xo:80px,80px,50px,50px;yo:700px,700px,900px,680px;" 
-										data-text="w:normal;s:18,18,25,25;l:15,15,25,25;fw:700;" 
-										data-dim="minh:0px,0px,none,0px;" 
-										data-padding="t:20,20,18,18;r:32,32,25,25;b:20,20,18,18;l:32,32,25,25;" 
-										data-border="bor:6px,6px,6px,6px;" 
-										data-frame_0="x:-50,-50,-24,-24;" 
-										data-frame_1="sp:1000;" 
-										data-frame_999="o:0;st:w;" 
-										data-frame_hover="c:#54d3ca;bgc:rgba(0,0,0,0);boc:#54d3ca;bor:6px,6px,6px,6px;bos:solid;bow:1px,1px,1px,1px;" 
-										style="z-index:22;background-color:#fff; font-family:'Montserrat';">Get Started </a>
-									
-
-									<!-- IMAGE -->
-									<rs-layer id="slider-1-slide-1-layer-8" data-type="image" data-rsp_ch="on" data-xy="x:r,r,c,c;xo:0,0,80px,80px;y:t,t,b,b;yo:0px,0px,0px,0px;" data-dim="w:1920px,1920px,1500px,1500px;h:1280px,1280px,1000px,1000px;" data-basealign="slide" data-frame_0="x:right;" data-frame_1="sp:1000;" data-frame_999="o:0;st:w;" style="z-index:2;"><img src="../img/dummy.png" class="tp-rs-img rs-lazyload" width="1920" height="1280" data-lazyload="../img/kyb/kyb-orange-glad-business.jpg"> </rs-layer>
-
-									
-
-									
-									<!--
-										-->
-								</rs-slide>
-							</rs-slides>
-						</rs-module>
-					</rs-module-wrap>
-					<!-- END REVOLUTION SLIDER -->
-				</div>
 			</header>
 		</div>
 
@@ -200,7 +337,7 @@
 		<div id="Content" role="main">
 
 
-			<div class="section mcb-section event8-radius m-t-50decrease" style="padding-bottom:10px;">
+			<div class="section mcb-section event8-radius m-t-50decrease" style="padding-bottom:10px; margin-top: -50px;">
 				<div class="container">
 					
 					
@@ -260,7 +397,7 @@
 
 
 
-			<div class="section mcb-section no-margin-v equal-height-wrap">
+			<div id="intro" class="section mcb-section no-margin-v equal-height-wrap">
 				<div class="container">
 					<div class="row">
 						<div class=" m-t-60 col-md-4 valign-middle clearfix" data-col="one-third">

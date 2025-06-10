@@ -43,6 +43,37 @@
 	<script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/add00f74886fc81588359713a77c9643.js"></script>
 
 
+	<style>
+
+
+   /* 1) Ensure Top_bar is the positioning context */
+  #Top_bar {
+    position: relative !important;
+    height: 1px;
+  }
+
+  /* 2) Pin the hamburger dead-flush to the edge */
+  .responsive-menu-toggle {
+    position: absolute !important;
+    right: 0 !important;            /* flush to the screen edge */
+    top: 50% !important;            /* vertically centered */
+    transform: translateY(-50%) !important;
+    padding: 18px !important;        /* tighten its hit area if needed */
+    z-index: 1001 !important;
+  }
+
+  /* 3) Move the Contact button in toward it */
+  .action_button.top-bar-right-button {
+    position: absolute !important;
+    right: 40px !important;         /* hamburger width (~30px) + 10px gap */
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    z-index: 1000 !important;
+  }
+
+</style>
+
+
 	</head>
 
 
@@ -73,17 +104,11 @@
 								<div class="menu_wrapper">
 									<nav id="menu">
 										<ul id="menu-main-menu" class="menu menu-main">
-											<li> <a href="../index.html"><span>Home</span></a> </li>
 											<li> <a href="../services/kyc.html"><span>KYC</span></a> </li>
+											<li> <a href="../services/enrich-kyc.html"><span>Enriched KYC</span></a> </li>
 											<li> <a href="../services/kyb.html"><span>KYB</span></a> </li>
-											<li> <a href="#"><span>Company</span></a> 
-												<ul class="sub-menu">
-                                                    <li><a href="about.html"><span>About</span></a></li>
-                                                    <li><a href="contact.html"><span>Contact Us</span></a></li>
-                                                 </ul>
-                                            </li>
-
-
+											<li> <a href="company/about.html"><span>About Us</span></a> </li>
+												 
 										</ul>
 									</nav>
 
@@ -97,7 +122,6 @@
 						</div>
 					</div>
 				</div>
-
 
 
 
